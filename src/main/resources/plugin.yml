@@ -1,0 +1,16 @@
+name: DarkBox
+version: '${project.version}'
+main: core.pluginchaos.darkbox.DarkBox
+api-version: 1.19
+load: POSTWORLD
+commands:
+  dbCreate:
+    description: make dark boxes
+    usage: /<command>
+  dbList:
+    description: make dark box list
+    usage: /<command>
+  dbEdit:
+    description: dark box
+    usage: /<command>
+
