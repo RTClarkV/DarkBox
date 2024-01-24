@@ -1,9 +1,7 @@
 package core.pluginchaos.darkbox;
 
 import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.server.ServerLoadEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
@@ -12,6 +10,7 @@ public final class DarkBox extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        //haha random comment!!!
         config = getConfig();
         config.options().copyDefaults(true);
         saveDefaultConfig();
